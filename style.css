@@ -5,14 +5,14 @@ body {
 }
 .header {
     display: flex;
-    justify-content: space-between;
-    background-color: #1F2937;
     color: #f9faf8;
     font-size: 24px;
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
     font-weight: 700;
+    gap: 325px;
+    
 }
 .header-links {
     display: flex;
@@ -21,6 +21,13 @@ body {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 100;
+    justify-content: right;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
 }
 .body-1 {
     display: flex;
@@ -55,4 +62,106 @@ body {
     color: #f9faf8;
     font-weight: 200;
 }
+.info-header {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+.b2-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+    
+}
+.b2-list li{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 100;
+    text-align: center;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
 
+}
+.top-square {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    /*Need to fix below */
+}
+.body-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #E5E7EB;
+    height: 500px;
+    padding: 50px 200px;
+}
+.main-txt {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+.quote {
+    display: flex;
+    justify-content: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+.body-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 75px 0;
+    padding: 20px 100px;
+    justify-content: center;
+    gap: 100px;
+    width: fit-content;
+}
+.h-call {
+    font-size: 18px;
+    color: #f9faf8;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.cont-call {
+    font-size: 14px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+.action button {
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 3px solid #E5E7EB;
+    color: #1F2937;
+    border-radius: 5px;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 25px;
+    color: #f9faf8;
+}
